@@ -1,0 +1,40 @@
+---
+title: Den skiftande bakgrunden på sidan! 
+slug: Bakgrunden
+date: 2020-03-21
+featureImage: Space1.jpg
+excerpt: Innehåller kod + vart koden är ifrån som exempel.
+---
+
+<h1> Bakgrunden! </h1>
+
+
+
+> Använder mig av en bakgrund till sidan som sitter på body + html som byter färg, tänkte att det kunde vara intressant att testa att kopiera in kod när det ändå fanns en funktion för det inbyggt.
+
+[På denna osäkra sidan finns koden + mer exempel](https://1stwebdesigner.com/15-css-background-effects/), Fanns även en del roliga exempel med Sass och liknande jag ska kika på i framtiden! =)
+
+
+
+
+```css
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+```
+
+![Space Photo!](Space1.jpg)
